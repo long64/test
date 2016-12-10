@@ -2,6 +2,7 @@
 
 int main(){
 int a = 20;
-printf("%d\n", a);
+int b = a * 2;
+printf("%d, %d\n", a, b);
 return 0;
 }
